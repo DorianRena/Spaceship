@@ -8,7 +8,9 @@ find_package(Qt6 COMPONENTS
         Widgets Multimedia
         REQUIRED)
 
-add_executable(Spaceship WIN32 ressource.qrc
+set(WIN_RESOURCES logo.rc)
+
+add_executable(Spaceship WIN32 ressource.qrc logo.rc
         Projet/src/main.cpp
         Projet/src/MainWindow.cpp
         Projet/src/Menu.cpp

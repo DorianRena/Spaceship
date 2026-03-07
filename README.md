@@ -36,6 +36,8 @@ Puis build le ".exe" :
 ```bash
 mkdir build
 cd build
+```
+```bash
 cmake .. -DCMAKE_PREFIX_PATH="C:/QT/6.10.2/msvc2022_64"   
 cmake --build . --config Debug  
 C:\QT\6.10.2\msvc2022_64\bin\windeployqt.exe Debug\Spaceship.exe
